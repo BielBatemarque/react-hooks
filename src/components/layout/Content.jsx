@@ -12,6 +12,8 @@ export const Content = () => {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/UseState" exact element={<UseState />} />
+          <Route path="/UseEffect" exact element={< UseEffect/>} />
+          <Route path="/UseRef" exact element={< UseRef/>} />
         </Routes>
       </main>
     );
