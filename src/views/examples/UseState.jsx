@@ -17,7 +17,7 @@ export const UseState = () => {
             <button className="btn" onClick={() => setCount(s => s + 1)}>+1</button>
             <button className="btn" onClick={() => setCount(s => s - 1)}>-1</button>
             <button className="btn" onClick={() => setCount(1000)}>1000</button>
-            <button className="btn" onClick={() => setCount(0)}>1000</button>
+            <button className="btn" onClick={() => setCount(0)}>0</button>
             </div>
           </div>
 
