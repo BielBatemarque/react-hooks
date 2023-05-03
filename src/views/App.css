@@ -2,3 +2,27 @@
     display: flex;
     height: 100vh;
 }
+
+.text{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(80, 233, 250, 0.773);
+    border-radius: 75px;
+    margin-bottom: 1rem;
+    margin: 1px auto;
+    cursor: pointer;
+}
+
+.btns{
+    text-align: center;
+}

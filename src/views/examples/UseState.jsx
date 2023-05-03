@@ -1,7 +1,23 @@
+import { useState } from "react";
+import { SectionTitle } from '../../components/layout/SectionTitle';
+
 export const UseState = () => {
+    const[count, setCount] = useState(0);
+
     return (
-      <div className="About">
-          
+      <div className="UseState">
+          <h1>Hook UseState</h1>
+
+      <SectionTitle title='Exercicio #1' />
+          <div className="center">
+            <span className="text">{count}</span>
+            <div className="btns">
+
+            <button className="btn" onClick={() => setCount(s => s + 1)}>+1</button>
+            <button className="btn" onClick={() => setCount(s => s - 1)}>-1</button>
+            <button className="btn" onClick={() => setCount(1000)}>1000</button>
+            </div>
+          </div>
       </div>
     );
   }
