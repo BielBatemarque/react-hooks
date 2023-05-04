@@ -28,7 +28,7 @@ export const UseEffect = () => {
         }
     }, [fatorial]);
 
-    useEffect(() => {
+    useEffect(() => {''
         if(number%2 !== 0){
             setStatus('impar');
         }else{
@@ -49,7 +49,7 @@ export const UseEffect = () => {
 
             <SectionTitle title='Exercicio #2' />
                 <div className="center">
-                    <span className="text">{status}</span>
+                    <span className="text">Status: {status}</span>
                 </div>
         </div>
     );
