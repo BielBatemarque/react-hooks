@@ -3,7 +3,7 @@ import { SectionTitle } from "../../components/layout/SectionTitle";
 
 export const UseRef = () => {
     const merge = (s1, s2) => {
-        return s1 + s2;
+        return [...s1].map((e, i) => `${e}${s2[i] || ''}`).join('');
     }
 
     const[value1, setValue1] = useState('');
