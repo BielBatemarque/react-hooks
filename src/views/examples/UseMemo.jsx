@@ -17,7 +17,7 @@ export const UseMemo = () => {
     return(
         <div className="useMemo">
             <SectionTitle title='useMemo' />
-                <h3>Retorna um valor memorizado</h3>
+                <h3>Retorna um valor memorizado(armazena em cache do navegador) </h3>
 
                 <div className="center">
                     <input type="number" className="input" value={n1} onChange={(e) => setN1(Number(e.target.value))} />
@@ -28,4 +28,4 @@ export const UseMemo = () => {
                 </div>
         </div>
     );
-}
+};
