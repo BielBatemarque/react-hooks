@@ -6,7 +6,7 @@ export const UseMemo = () => {
         const future = Date.now() + 200;
         while(Date.now() < future){}
         return a+b;
-    } 
+    };
 
     const[n1, setN1] = useState(0);
     const[n2, setN2] = useState(0);
