@@ -23,7 +23,6 @@ export const UseMemo = () => {
                     <input type="number" className="input" value={n1} onChange={(e) => setN1(Number(e.target.value))} />
                     <input type="number" className="input" value={n2} onChange={(e) => setN2(Number(e.target.value))} />
                     <input type="number" className="input" value={n3} onChange={(e) => setN3(Number(e.target.value))} />
-
                     <span className="text">{result}</span>
                 </div>
         </div>
