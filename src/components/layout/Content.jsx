@@ -18,6 +18,7 @@ export const Content = () => {
           <Route path="/UseRef" exact element={< UseRef/>} />
           <Route path="/UseMemo" exact element={< UseMemo/>} />
           <Route path="/UseCallback" exact element={<UseCallback/>} />
+          <Route path="/UseContext" exact element={<UseContext/>} />
         </Routes>
       </main>
     );
