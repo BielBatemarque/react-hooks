@@ -26,6 +26,6 @@ export const UseState = () => {
             <h2 className="textinput">{name}</h2>
       </div>
     );
-  }
+  };
 
   
