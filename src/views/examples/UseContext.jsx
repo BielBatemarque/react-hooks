@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { SectionTitle } from "../../components/layout/SectionTitle";
 import { DataContext } from "../../data/DataContext";
 import { AppContext } from '../../data/Store';
