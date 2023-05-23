@@ -8,6 +8,7 @@ import { UseMemo } from '../../views/examples/UseMemo';
 import { UseCallback } from '../../views/examples/Usecallback';
 import { UseContext } from '../../views/examples/UseContext';
 import { UseReducer } from '../../views/examples/UseReducer';
+import { UseMyHook } from '../../views/examples/UseMyHook';
 
 
 export const Content = () => {
@@ -22,6 +23,7 @@ export const Content = () => {
           <Route path="/UseCallback" exact element={<UseCallback/>} />
           <Route path="/UseContext" exact element={<UseContext/>} />
           <Route path="/UseReducer" exact element={<UseReducer/> } />
+          <Route path="/UseMyHook" exact element={<UseMyHook/> } />
         </Routes>
       </main>
     );
